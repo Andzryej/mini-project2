@@ -1,0 +1,129 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/*SPLASH*/
+.splash {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?cs=srgb&dl=pexels-dominika-roseclay-1036841.jpg&fm=jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  height: 100%;
+}
+
+.splash nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.greetings {
+  -ms-flex: 4;
+      flex: 4;
+}
+
+.container .wrapper {
+  text-align: center;
+  margin: 0 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+}
+
+nav ul {
+  -ms-flex: 3;
+      flex: 3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+nav p {
+  -ms-flex: 1;
+      flex: 1;
+  font-size: 2rem;
+  text-align: center;
+  color: #f1c40f;
+  font-family: Yellowtail, snans-serif;
+}
+
+.splash li {
+  padding: 10px 20px;
+}
+
+.splash a {
+  font-size: 1.5rem;
+}
+
+.splash a {
+  text-decoration: none;
+  font-family: Roboto, snans-serif;
+}
+
+.splash a:hover {
+  color: #f1c40f;
+}
+
+.greetings p {
+  font-size: 2rem;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.greetings h2 {
+  margin: 10px auto;
+  font-size: 3rem;
+  padding: 10px 20px;
+}
+
+.greetings button {
+  padding: 10px 30px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #2c3e50;
+  font-family: Roboto, sans-serif;
+  font-weight: 50;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,117 @@
+/*GLOBAL*/
+$color-gold:#f1c40f;
+$color-dark:#2c3e50;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+/*SPLASH*/
+.splash {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?cs=srgb&dl=pexels-dominika-roseclay-1036841.jpg&fm=jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.splash nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.greetings {
+    flex: 4;
+}
+
+.container .wrapper {
+
+    text-align: center;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav p {
+    flex: 1;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-gold;
+    font-family: Yellowtail, snans-serif;
+}
+
+.splash li {
+    padding: 10px 20px;
+
+}
+
+.splash a {
+    font-size: 1.5rem;
+}
+
+.splash a {
+    text-decoration: none;
+    font-family: Roboto, snans-serif;
+}
+
+.splash a:hover {
+    color: $color-gold;
+}
+
+
+.greetings p {
+    font-size: 2rem;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.greetings h2 {
+    margin: 10px auto;
+    font-size: 3rem;
+    padding: 10px 20px;
+}
+
+.greetings button {
+    padding: 10px 30px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: $color-dark;
+    font-family: Roboto, sans-serif;
+    font-weight: 50;
+    background-color: $color-gold;
+    border: none;
+    border-radius: 5px;
+}
